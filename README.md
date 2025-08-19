@@ -33,4 +33,6 @@ Para modelos de arquitetura Transformer, o uso de GPU é altamente recomendado. 
 - Elevado custo computacional, especialmente em tarefas com sequências longas, já que a complexidade do *self-attention* cresce quadraticamente com o tamanho da entrada.  
 - Forte dependência de hardware acelerador (GPU ou TPU) para treinamento em tempo viável.  
 - Necessidade de grandes volumes de dados para alcançar desempenho competitivo, o que pode dificultar experimentos em cenários de dados limitados.  
-- Estrutura complexa, com múltiplas camadas e mecanismos que aumentam a dificuldade de interpretação e depuração do modelo.  
+- Estrutura complexa, com múltiplas camadas e mecanismos que aumentam a dificuldade de interpretação e depuração do modelo.
+
+O modelo Transformer representa um avanço significativo no processamento de linguagem natural, trazendo ganhos de desempenho e flexibilidade em relação a arquiteturas anteriores. Apesar do alto custo computacional e da necessidade de hardware especializado, mostra-se como a principal abordagem em tradução automática e outras tarefas de NLP.  
